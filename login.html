@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <style>
+      body {
+        background: linear-gradient(135deg,#41aba0 0%,#8ec64e 100%);
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      form {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 400px;
+        margin: 0 auto;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: #333;
+      }
+      input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 20px;
+      }
+      input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .forgot-password {
+        text-align: right;
+        margin-bottom: 10px;
+      }
+      .register-link {
+        text-align: center;
+      }
+      .register-link a {
+        color: #333;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="Login">
+
+      <div class="forgot-password">
+        <a href="#">Forgot Password?</a>
+      </div>
+
+      <div class="register-link">
+        Don't have an account? <a href="ride.html">Register</a>
+      </div>
+    </form>
+  </body>
+</html>
