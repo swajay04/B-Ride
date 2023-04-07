@@ -4,7 +4,7 @@
 * Work on the website is still in progress and will be updated.
 
 # Running the Smart contract using Remix and Ganache 
-Now here i have used online solidity compiler Remix you can have your preference.
+* Now here i have used online solidity compiler Remix you can have your preference.
 # Steps to connect Remix and Ganache 
 * Compile the code on Remix IDE 
 * Open Ganache and select quickstart.
