@@ -14,5 +14,5 @@ Now here i have used online solidity compiler Remix you can have your preference
 * It will ask for Ganache JSON-RPC Endpoint: and more often than not it has "HTTP://127.0.0.1:8545" this value by default , you need to replace it with your RPC server value in my case it was 7545.
 * Click ok and your smart contract is now connected to ganache.
 * Deploy the transaction and check in the transactions tab in ganache you should see the details of your successful contract creation 
-# instructions for the website 
+# Instructions for the website 
 * After you get all the codes from here make sure you put the codes in the folders with their respective names.
