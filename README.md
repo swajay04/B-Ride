@@ -5,5 +5,5 @@ Work on the website is still in progress and will be updated.
 
 # Running the Smart contract using Remix and Ganache 
 Now here i have used online solidity compiler Remix you can have your preference.
-#Step 1
+# Step 1
 Compile the code on Remix IDE 
